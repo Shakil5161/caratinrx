@@ -1,0 +1,149 @@
+.hero-section.wf-section{
+	background-image: unset;
+}
+.hero-section .hero-content{
+	backdrop-filter: none;
+	max-width: 500px;
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hero-section .hero-title .font-secondary{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 70px;
+	display: flex;
+	color: #2B3539;
+}
+.hero-section .divider{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.ab-hero{
+	display: flex;
+	    align-items: baseline;
+
+}
+.ab-hero .hero-content-inner {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
+.ab-hero p.hero-text {
+    order: 3;
+    font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	padding-top: 45px;
+}
+.ab-hero .w-button {
+    order: 1;
+    font-weight: 400;
+	font-size: 22px;
+	line-height: 28px;
+	width: 100%;
+    margin-top: 25px;
+}
+.ab-hero p.font-mono {
+    display: none;
+}
+.before-after {
+    display: flex;
+    position: relative;
+}
+.before-after p {
+    width: 50%;
+    margin: 10px;
+    color: #2B3539;
+}
+.diamond-img-left {
+    position: absolute;
+    right: -16px;
+    top: -8px;
+}
+.nail-img {
+    position: relative;
+}
+.diamond-img-right {
+    position: absolute;
+    bottom: -45px;
+    left: -17px;
+    transform: rotate(180deg);
+}
+.hero-content{
+		padding: 0;
+	}
+.ab-content {
+    margin-right: 30px;
+}
+@media screen and (max-width: 767px) {
+	.container-lg.w-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ab-content .hero-title{
+	margin-top: 55px;
+}
+	.hero-section.wf-section{
+		height: auto;
+		padding-top: 50px;
+	}
+   .ab-hero {
+    	flex-direction: column-reverse;
+    	align-items: center;
+	}
+	.hero-section .hero-title .font-secondary{
+		font-style: normal;
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 35px;
+		text-align: center;
+	}
+	
+	
+	.ab-hero p.hero-text,.ab-hero .w-button {
+		font-size: 12px;
+		line-height: 15px;
+		text-align: center;
+		padding-top: 15px;
+	}
+	.ab-hero .w-button {
+		width: 85%;
+		margin-top: 40px;
+	}
+	
+	.ab-hero .hero-content-inner {
+        justify-content: center;
+        margin: 0 auto;
+	}
+	.diamond-img-right {
+	   bottom: -35px;
+       left: -11px;
+	}
+	.diamond-img-left {
+	    right: -10px;
+	    top: -15px;
+	}
+.diamond-img-right, .diamond-img-left {
+	    width: 35%;
+	    max-width: 150px;
+	}
+	.before-after p {
+	    margin: 0px;
+	    font-size: 14px;
+	}
+	.hero-section .divider, .ab-hero p.hero-text {
+    width: 80%;
+}
+.ab-content {
+    margin-right: 0px;
+}
+
+.hero-section .divider {
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+}
